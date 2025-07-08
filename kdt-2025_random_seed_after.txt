@@ -1,0 +1,7 @@
+﻿Generation ended on: 09/07/25 00.16
+
+The random seed at the end of generation is:
+	s10=3590938091, s11=1215485373, s12=821003056,
+	s20=3379618232, s21=3602482231, s22=1996428658.
+
+File ini secara otomatis dihasilkan oleh FET 7.2.5.

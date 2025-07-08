@@ -1,0 +1,7 @@
+﻿Pembuatan jadwal dimulai pada: 09/07/25 00.16
+
+The random seed at the start of generation is:
+	s10=3320904260, s11=1193451081, s12=753362194,
+	s20=1551075247, s21=152488014, s22=475569386.
+
+File ini secara otomatis dihasilkan oleh FET 7.2.5.

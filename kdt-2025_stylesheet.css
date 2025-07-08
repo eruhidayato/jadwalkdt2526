@@ -1,0 +1,1315 @@
+﻿@charset "UTF-8";
+
+/* CSS Style sheet of kdt-2025.fet
+   Style sheet generated with FET 7.2.5 on 09/07/25 00.16 */
+
+/* Untuk melakukan sebuah halaman hanya istirahat setelah setiap jadwal kedua, menghapus "Halaman-break-sebelum: selalu;" dalam "table.even_table". */
+/* Delete "page-break-before: always;" in "table.even_table" and in "table.odd_table" to skip page-breaks. */
+/* To hide an element just write the following phrase into the element: "display: none;" (without quotes). */
+
+p.back {
+  margin-top: 4ex;
+  margin-bottom: 5ex;
+}
+
+table {
+  text-align: center;
+  page-break-inside: avoid;
+}
+
+table.odd_table {
+  page-break-before: always;
+}
+
+table.even_table {
+  page-break-before: always;
+}
+
+table.detailed {
+  margin-left: auto; margin-right: auto;
+  text-align: center;
+  border: 0px;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+caption {
+
+}
+
+span.institution {
+  font-weight: bold;
+}
+
+span.name {
+
+}
+
+span.comment {
+  /*font-style: italic;*/
+}
+
+span.legend_title {
+  font-weight: bold;
+}
+
+thead {
+
+}
+
+/* Some programs import "tfoot" incorrectly. So we use "tr.foot" instead of "tfoot". */
+
+tr.foot {
+
+}
+
+tbody {
+
+}
+
+th {
+
+}
+
+td {
+
+}
+
+td.detailed {
+  border: 1px dashed silver;
+  border-bottom: 0;
+  border-top: 0;
+}
+
+th.xAxis {
+/* width: 8em; */
+}
+
+th.yAxis {
+  height: 8ex;
+}
+
+span.s_1 { /* subject Ad'iyah dan Wirid */
+
+}
+
+span.s_2 { /* subject Al Luma' */
+
+}
+
+span.s_3 { /* subject Alfiyah Ibnu Aqil */
+
+}
+
+span.s_4 { /* subject Alfiyah Ibnu Malik */
+
+}
+
+span.s_5 { /* subject Amtsilah Tashrif */
+
+}
+
+span.s_6 { /* subject Aqidah Sanusi */
+
+}
+
+span.s_7 { /* subject Arba'in Nawawi */
+
+}
+
+span.s_8 { /* subject B. Arab */
+
+}
+
+span.s_9 { /* subject B. Indonesia */
+
+}
+
+span.s_10 { /* subject B. Inggris */
+
+}
+
+span.s_11 { /* subject PKn */
+
+}
+
+span.s_12 { /* subject MTK */
+
+}
+
+span.s_13 { /* subject IPS */
+
+}
+
+span.s_14 { /* subject Balaghoh */
+
+}
+
+span.s_15 { /* subject Bidayatul Hidayah */
+
+}
+
+span.s_16 { /* subject Bulughul Marom */
+
+}
+
+span.s_17 { /* subject Dasuqi */
+
+}
+
+span.s_18 { /* subject Fara'id */
+
+}
+
+span.s_19 { /* subject Fathul Majid */
+
+}
+
+span.s_20 { /* subject Fathul Mu'in */
+
+}
+
+span.s_21 { /* subject Fathul Qarib */
+
+}
+
+span.s_22 { /* subject Ghoribul Musykilat */
+
+}
+
+span.s_23 { /* subject Hidayatul Mustafid */
+
+}
+
+span.s_24 { /* subject Hidayatus Salikin */
+
+}
+
+span.s_25 { /* subject Ilmu Hadist */
+
+}
+
+span.s_26 { /* subject Ilmu Tafsir */
+
+}
+
+span.s_27 { /* subject Imlak */
+
+}
+
+span.s_28 { /* subject Kailani */
+
+}
+
+span.s_29 { /* subject Kawakib */
+
+}
+
+span.s_30 { /* subject Khulashoh 1 */
+
+}
+
+span.s_31 { /* subject Khulashoh 2 */
+
+}
+
+span.s_32 { /* subject Khulashoh 3 */
+
+}
+
+span.s_33 { /* subject Mantiq */
+
+}
+
+span.s_34 { /* subject Matan Jurumiyah */
+
+}
+
+span.s_35 { /* subject Minhajul 'Abidin */
+
+}
+
+span.s_36 { /* subject Praktek Ibadah */
+
+}
+
+span.s_37 { /* subject Riyadhus Sholihin */
+
+}
+
+span.s_38 { /* subject Safinatunnajah */
+
+}
+
+span.s_39 { /* subject Shorof Al Maqsud */
+
+}
+
+span.s_40 { /* subject Shorof Marrohil Arwah */
+
+}
+
+span.s_41 { /* subject Syajaroh Ilmu Nahwu */
+
+}
+
+span.s_42 { /* subject Taqribul I'rab */
+
+}
+
+span.s_43 { /* subject Tafsir Jalalain */
+
+}
+
+span.s_44 { /* subject Tahfizh */
+
+}
+
+span.s_45 { /* subject Tahsin */
+
+}
+
+span.s_46 { /* subject Tajwid Melayu */
+
+}
+
+span.s_47 { /* subject Ta'lim Muta'lim */
+
+}
+
+span.s_48 { /* subject Targhib wa Tarhib */
+
+}
+
+span.s_49 { /* subject Tauhid Bajuri */
+
+}
+
+span.s_50 { /* subject Waroqot */
+
+}
+
+span.s_51 { /* subject Washoya */
+
+}
+
+span.s_52 { /* subject KHOTMIL QUR'AN */
+
+}
+
+span.s_53 { /* subject MAULID SIMTUDDUROR */
+
+}
+
+span.s_54 { /* subject BURDAH */
+
+}
+
+span.s_55 { /* subject WAMIMMA */
+
+}
+
+span.s_56 { /* subject BAHSUL MASAIL */
+
+}
+
+span.s_57 { /* subject IBTIDAIYAH */
+
+}
+
+span.ss_1 { /* students set Semua Kelas */
+
+}
+
+span.ss_3 { /* students set 1A */
+
+}
+
+span.ss_4 { /* students set 1B */
+
+}
+
+span.ss_5 { /* students set 1C */
+
+}
+
+span.ss_6 { /* students set 1D */
+
+}
+
+span.ss_8 { /* students set 2A */
+
+}
+
+span.ss_9 { /* students set 2B */
+
+}
+
+span.ss_10 { /* students set 2C */
+
+}
+
+span.ss_12 { /* students set 3A */
+
+}
+
+span.ss_13 { /* students set 3B */
+
+}
+
+span.ss_14 { /* students set 3C */
+
+}
+
+span.ss_16 { /* students set 4A */
+
+}
+
+span.ss_17 { /* students set 4B */
+
+}
+
+span.ss_19 { /* students set 5A */
+
+}
+
+span.ss_20 { /* students set 5B */
+
+}
+
+span.ss_22 { /* students set 6 */
+
+}
+
+span.ss_24 { /* students set 1 ib */
+
+}
+
+span.ss_26 { /* students set 2L ib */
+
+}
+
+span.ss_28 { /* students set 2P ib */
+
+}
+
+span.ss_30 { /* students set 3L ib */
+
+}
+
+span.ss_32 { /* students set 3P ib */
+
+}
+
+span.ss_34 { /* students set 4 ib */
+
+}
+
+span.ss_36 { /* students set 5 ib */
+
+}
+
+span.ss_38 { /* students set 6 ib */
+
+}
+
+span.t_1 { /* teacher 01 Tg. KH. Sholahuddin Syargawi */
+
+}
+
+span.t_2 { /* teacher 02 Gr. Zainuddin Syargawi */
+
+}
+
+span.t_3 { /* teacher 03 Gr. Abdul Hannan */
+
+}
+
+span.t_4 { /* teacher 04 Gr. M. Chairul Chafis */
+
+}
+
+span.t_5 { /* teacher 05 Gr. Abdul Aziz Syargawi */
+
+}
+
+span.t_6 { /* teacher 06 Gr. Abdul Rahmansyah */
+
+}
+
+span.t_7 { /* teacher 07 Gr. Dede Miftah R. */
+
+}
+
+span.t_8 { /* teacher 08 Gr. Mu'as */
+
+}
+
+span.t_9 { /* teacher 09 Gr. Zunli Pebruansyah */
+
+}
+
+span.t_10 { /* teacher 10 Gr. Rahmat Hidayat */
+
+}
+
+span.t_11 { /* teacher 11 Gr. M. Habibi */
+
+}
+
+span.t_12 { /* teacher 12 Gr. Apriyadi */
+
+}
+
+span.t_13 { /* teacher 13 Gr. Ahmad Hidayat */
+
+}
+
+span.t_14 { /* teacher 14 Gr. Iman Nurul Huda */
+
+}
+
+span.t_15 { /* teacher 15 Gr. Abu Bakar */
+
+}
+
+span.t_16 { /* teacher 16 Gr. Fithratul Hafizd */
+
+}
+
+span.t_17 { /* teacher 17 Gr. Syahrofi */
+
+}
+
+span.t_18 { /* teacher 18 Gr. Ainul Muttakin */
+
+}
+
+span.t_19 { /* teacher 19 Gr. Rahmad Romadhoni */
+
+}
+
+span.t_20 { /* teacher 20 Gr. M. Akbar Ramadhan */
+
+}
+
+span.t_21 { /* teacher 21 Gr. M. Adzriq */
+
+}
+
+span.t_22 { /* teacher 22 Gr. M. Huzaifi */
+
+}
+
+span.t_23 { /* teacher 23 Gr. M. Rifky */
+
+}
+
+span.t_24 { /* teacher 24 Gr. Khairul Anam */
+
+}
+
+span.t_25 { /* teacher 25 Gr. Abdul Fattah */
+
+}
+
+span.t_26 { /* teacher 26 Gr. M. Darul Shodiqin */
+
+}
+
+span.t_27 { /* teacher 27 Gr. Ari Gunawan */
+
+}
+
+span.t_28 { /* teacher 28 Gr. Amin Harahap */
+
+}
+
+span.t_29 { /* teacher 29 Gr. Surya Hardiansyah */
+
+}
+
+span.t_30 { /* teacher 30 Gr. Ragil Wayan S. */
+
+}
+
+span.t_31 { /* teacher 31 Gr. Abiyansyah */
+
+}
+
+span.t_32 { /* teacher 32 Gr. Alkafi Farezi */
+
+}
+
+span.t_33 { /* teacher 33 Gr. M. Zarkasih */
+
+}
+
+span.t_34 { /* teacher 34 Gr. M. Fiqri */
+
+}
+
+span.t_35 { /* teacher 35 Gr. M. Khoirul Umam */
+
+}
+
+span.t_36 { /* teacher 36 Gr. Sardi */
+
+}
+
+span.t_37 { /* teacher 37 Gr. Sukri Yadi */
+
+}
+
+span.t_38 { /* teacher 38 Gr. Yusup Mirza M. */
+
+}
+
+span.t_39 { /* teacher 39 Abdi Azril Ramadhan */
+
+}
+
+span.t_40 { /* teacher 40 Abdi Beriano Sentosa */
+
+}
+
+span.t_41 { /* teacher 42 Abdi M. Afdhal F. */
+
+}
+
+span.t_42 { /* teacher 43 Abdi M. Nur Mahmudi T. */
+
+}
+
+span.t_43 { /* teacher 44 Abdi M. Pebriansyah */
+
+}
+
+span.t_44 { /* teacher 45 Abdi M. Sofwan */
+
+}
+
+span.t_45 { /* teacher 46 Abdi M. Habibi */
+
+}
+
+span.t_46 { /* teacher 47 Abdi M. Ilham N. */
+
+}
+
+span.t_47 { /* teacher 48 Abdi M. Zahid */
+
+}
+
+span.t_48 { /* teacher 49 Abdi Raditya Rizki R. */
+
+}
+
+span.t_49 { /* teacher 50 Abdi Yurisan */
+
+}
+
+span.r_1 { /* room 1A */
+
+}
+
+span.r_2 { /* room 1B */
+
+}
+
+span.r_3 { /* room 1C */
+
+}
+
+span.r_4 { /* room 1D */
+
+}
+
+span.r_5 { /* room 2A */
+
+}
+
+span.r_6 { /* room 2B */
+
+}
+
+span.r_7 { /* room 2C */
+
+}
+
+span.r_8 { /* room 3A */
+
+}
+
+span.r_9 { /* room 3B */
+
+}
+
+span.r_10 { /* room 3C */
+
+}
+
+span.r_11 { /* room 4A */
+
+}
+
+span.r_12 { /* room 4B */
+
+}
+
+span.r_13 { /* room 5A */
+
+}
+
+span.r_14 { /* room 5B */
+
+}
+
+span.r_15 { /* room 6 */
+
+}
+
+span.subject {
+
+}
+
+span.activitytag {
+
+}
+
+span.empty {
+  color: gray;
+}
+
+td.empty {
+  border-color: silver;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: dotted;
+  border-top-style: dotted;
+}
+
+span.notAvailable {
+  color: gray;
+}
+
+td.notAvailable {
+  border-color: silver;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: dotted;
+  border-top-style: dotted;
+}
+
+span.break {
+  color: gray;
+}
+
+td.break {
+  border-color: silver;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: dotted;
+  border-top-style: dotted;
+}
+
+tr.studentsset, div.studentsset {
+
+}
+
+tr.teacher, div.teacher {
+
+}
+
+tr.room, div.room {
+
+}
+
+tr.line0, div.line0 {
+  font-size: smaller;
+}
+
+tr.line1, div.line1 {
+
+}
+
+tr.line2, div.line2 {
+  font-size: smaller;
+  color: gray;
+}
+
+tr.line3, div.line3 {
+  font-size: smaller;
+  color: silver;
+}
+
+/* Hati-hati. Anda mungkin mendapatkan gaya bersama dan ambigu. CSS berarti bahwa definisi terakhir akan dipakai. */
+
+td.s_1 { /* subject Ad'iyah dan Wirid */
+
+}
+
+td.s_2 { /* subject Al Luma' */
+
+}
+
+td.s_3 { /* subject Alfiyah Ibnu Aqil */
+
+}
+
+td.s_4 { /* subject Alfiyah Ibnu Malik */
+
+}
+
+td.s_5 { /* subject Amtsilah Tashrif */
+
+}
+
+td.s_6 { /* subject Aqidah Sanusi */
+
+}
+
+td.s_7 { /* subject Arba'in Nawawi */
+
+}
+
+td.s_8 { /* subject B. Arab */
+
+}
+
+td.s_9 { /* subject B. Indonesia */
+
+}
+
+td.s_10 { /* subject B. Inggris */
+
+}
+
+td.s_11 { /* subject PKn */
+
+}
+
+td.s_12 { /* subject MTK */
+
+}
+
+td.s_13 { /* subject IPS */
+
+}
+
+td.s_14 { /* subject Balaghoh */
+
+}
+
+td.s_15 { /* subject Bidayatul Hidayah */
+
+}
+
+td.s_16 { /* subject Bulughul Marom */
+
+}
+
+td.s_17 { /* subject Dasuqi */
+
+}
+
+td.s_18 { /* subject Fara'id */
+
+}
+
+td.s_19 { /* subject Fathul Majid */
+
+}
+
+td.s_20 { /* subject Fathul Mu'in */
+
+}
+
+td.s_21 { /* subject Fathul Qarib */
+
+}
+
+td.s_22 { /* subject Ghoribul Musykilat */
+
+}
+
+td.s_23 { /* subject Hidayatul Mustafid */
+
+}
+
+td.s_24 { /* subject Hidayatus Salikin */
+
+}
+
+td.s_25 { /* subject Ilmu Hadist */
+
+}
+
+td.s_26 { /* subject Ilmu Tafsir */
+
+}
+
+td.s_27 { /* subject Imlak */
+
+}
+
+td.s_28 { /* subject Kailani */
+
+}
+
+td.s_29 { /* subject Kawakib */
+
+}
+
+td.s_30 { /* subject Khulashoh 1 */
+
+}
+
+td.s_31 { /* subject Khulashoh 2 */
+
+}
+
+td.s_32 { /* subject Khulashoh 3 */
+
+}
+
+td.s_33 { /* subject Mantiq */
+
+}
+
+td.s_34 { /* subject Matan Jurumiyah */
+
+}
+
+td.s_35 { /* subject Minhajul 'Abidin */
+
+}
+
+td.s_36 { /* subject Praktek Ibadah */
+
+}
+
+td.s_37 { /* subject Riyadhus Sholihin */
+
+}
+
+td.s_38 { /* subject Safinatunnajah */
+
+}
+
+td.s_39 { /* subject Shorof Al Maqsud */
+
+}
+
+td.s_40 { /* subject Shorof Marrohil Arwah */
+
+}
+
+td.s_41 { /* subject Syajaroh Ilmu Nahwu */
+
+}
+
+td.s_42 { /* subject Taqribul I'rab */
+
+}
+
+td.s_43 { /* subject Tafsir Jalalain */
+
+}
+
+td.s_44 { /* subject Tahfizh */
+
+}
+
+td.s_45 { /* subject Tahsin */
+
+}
+
+td.s_46 { /* subject Tajwid Melayu */
+
+}
+
+td.s_47 { /* subject Ta'lim Muta'lim */
+
+}
+
+td.s_48 { /* subject Targhib wa Tarhib */
+
+}
+
+td.s_49 { /* subject Tauhid Bajuri */
+
+}
+
+td.s_50 { /* subject Waroqot */
+
+}
+
+td.s_51 { /* subject Washoya */
+
+}
+
+td.s_52 { /* subject KHOTMIL QUR'AN */
+
+}
+
+td.s_53 { /* subject MAULID SIMTUDDUROR */
+
+}
+
+td.s_54 { /* subject BURDAH */
+
+}
+
+td.s_55 { /* subject WAMIMMA */
+
+}
+
+td.s_56 { /* subject BAHSUL MASAIL */
+
+}
+
+td.s_57 { /* subject IBTIDAIYAH */
+
+}
+
+td.ss_1 { /* students set Semua Kelas */
+
+}
+
+td.ss_3 { /* students set 1A */
+
+}
+
+td.ss_4 { /* students set 1B */
+
+}
+
+td.ss_5 { /* students set 1C */
+
+}
+
+td.ss_6 { /* students set 1D */
+
+}
+
+td.ss_8 { /* students set 2A */
+
+}
+
+td.ss_9 { /* students set 2B */
+
+}
+
+td.ss_10 { /* students set 2C */
+
+}
+
+td.ss_12 { /* students set 3A */
+
+}
+
+td.ss_13 { /* students set 3B */
+
+}
+
+td.ss_14 { /* students set 3C */
+
+}
+
+td.ss_16 { /* students set 4A */
+
+}
+
+td.ss_17 { /* students set 4B */
+
+}
+
+td.ss_19 { /* students set 5A */
+
+}
+
+td.ss_20 { /* students set 5B */
+
+}
+
+td.ss_22 { /* students set 6 */
+
+}
+
+td.ss_24 { /* students set 1 ib */
+
+}
+
+td.ss_26 { /* students set 2L ib */
+
+}
+
+td.ss_28 { /* students set 2P ib */
+
+}
+
+td.ss_30 { /* students set 3L ib */
+
+}
+
+td.ss_32 { /* students set 3P ib */
+
+}
+
+td.ss_34 { /* students set 4 ib */
+
+}
+
+td.ss_36 { /* students set 5 ib */
+
+}
+
+td.ss_38 { /* students set 6 ib */
+
+}
+
+td.t_1 { /* teacher 01 Tg. KH. Sholahuddin Syargawi */
+
+}
+
+td.t_2 { /* teacher 02 Gr. Zainuddin Syargawi */
+
+}
+
+td.t_3 { /* teacher 03 Gr. Abdul Hannan */
+
+}
+
+td.t_4 { /* teacher 04 Gr. M. Chairul Chafis */
+
+}
+
+td.t_5 { /* teacher 05 Gr. Abdul Aziz Syargawi */
+
+}
+
+td.t_6 { /* teacher 06 Gr. Abdul Rahmansyah */
+
+}
+
+td.t_7 { /* teacher 07 Gr. Dede Miftah R. */
+
+}
+
+td.t_8 { /* teacher 08 Gr. Mu'as */
+
+}
+
+td.t_9 { /* teacher 09 Gr. Zunli Pebruansyah */
+
+}
+
+td.t_10 { /* teacher 10 Gr. Rahmat Hidayat */
+
+}
+
+td.t_11 { /* teacher 11 Gr. M. Habibi */
+
+}
+
+td.t_12 { /* teacher 12 Gr. Apriyadi */
+
+}
+
+td.t_13 { /* teacher 13 Gr. Ahmad Hidayat */
+
+}
+
+td.t_14 { /* teacher 14 Gr. Iman Nurul Huda */
+
+}
+
+td.t_15 { /* teacher 15 Gr. Abu Bakar */
+
+}
+
+td.t_16 { /* teacher 16 Gr. Fithratul Hafizd */
+
+}
+
+td.t_17 { /* teacher 17 Gr. Syahrofi */
+
+}
+
+td.t_18 { /* teacher 18 Gr. Ainul Muttakin */
+
+}
+
+td.t_19 { /* teacher 19 Gr. Rahmad Romadhoni */
+
+}
+
+td.t_20 { /* teacher 20 Gr. M. Akbar Ramadhan */
+
+}
+
+td.t_21 { /* teacher 21 Gr. M. Adzriq */
+
+}
+
+td.t_22 { /* teacher 22 Gr. M. Huzaifi */
+
+}
+
+td.t_23 { /* teacher 23 Gr. M. Rifky */
+
+}
+
+td.t_24 { /* teacher 24 Gr. Khairul Anam */
+
+}
+
+td.t_25 { /* teacher 25 Gr. Abdul Fattah */
+
+}
+
+td.t_26 { /* teacher 26 Gr. M. Darul Shodiqin */
+
+}
+
+td.t_27 { /* teacher 27 Gr. Ari Gunawan */
+
+}
+
+td.t_28 { /* teacher 28 Gr. Amin Harahap */
+
+}
+
+td.t_29 { /* teacher 29 Gr. Surya Hardiansyah */
+
+}
+
+td.t_30 { /* teacher 30 Gr. Ragil Wayan S. */
+
+}
+
+td.t_31 { /* teacher 31 Gr. Abiyansyah */
+
+}
+
+td.t_32 { /* teacher 32 Gr. Alkafi Farezi */
+
+}
+
+td.t_33 { /* teacher 33 Gr. M. Zarkasih */
+
+}
+
+td.t_34 { /* teacher 34 Gr. M. Fiqri */
+
+}
+
+td.t_35 { /* teacher 35 Gr. M. Khoirul Umam */
+
+}
+
+td.t_36 { /* teacher 36 Gr. Sardi */
+
+}
+
+td.t_37 { /* teacher 37 Gr. Sukri Yadi */
+
+}
+
+td.t_38 { /* teacher 38 Gr. Yusup Mirza M. */
+
+}
+
+td.t_39 { /* teacher 39 Abdi Azril Ramadhan */
+
+}
+
+td.t_40 { /* teacher 40 Abdi Beriano Sentosa */
+
+}
+
+td.t_41 { /* teacher 42 Abdi M. Afdhal F. */
+
+}
+
+td.t_42 { /* teacher 43 Abdi M. Nur Mahmudi T. */
+
+}
+
+td.t_43 { /* teacher 44 Abdi M. Pebriansyah */
+
+}
+
+td.t_44 { /* teacher 45 Abdi M. Sofwan */
+
+}
+
+td.t_45 { /* teacher 46 Abdi M. Habibi */
+
+}
+
+td.t_46 { /* teacher 47 Abdi M. Ilham N. */
+
+}
+
+td.t_47 { /* teacher 48 Abdi M. Zahid */
+
+}
+
+td.t_48 { /* teacher 49 Abdi Raditya Rizki R. */
+
+}
+
+td.t_49 { /* teacher 50 Abdi Yurisan */
+
+}
+
+/* Style the teachers' free periods */
+
+div.DESCRIPTION {
+  text-align: left;
+  font-size: smaller;
+}
+
+div.TEACHER_HAS_SINGLE_GAP {
+  color: black;
+}
+
+div.TEACHER_HAS_BORDER_GAP {
+  color: gray;
+}
+
+div.TEACHER_HAS_BIG_GAP {
+  color: silver;
+}
+
+div.TEACHER_MUST_COME_EARLIER {
+  color: purple;
+}
+
+div.TEACHER_MUST_COME_MUCH_EARLIER {
+  font-size: smaller;
+  color: fuchsia;
+}
+
+div.TEACHER_MUST_STAY_LONGER {
+  color: teal;
+}
+
+div.TEACHER_MUST_STAY_MUCH_LONGER {
+  font-size: smaller;
+  color: aqua;
+}
+
+div.TEACHER_HAS_A_FREE_DAY {
+  font-size: smaller;
+  color: red;
+}
+
+div.TEACHER_IS_NOT_AVAILABLE {
+  font-size: smaller;
+  color: olive;
+}
+
+/* Akhir file. */
