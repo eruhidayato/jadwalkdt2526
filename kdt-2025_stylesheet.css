@@ -1,7 +1,7 @@
 ﻿@charset "UTF-8";
 
 /* CSS Style sheet of kdt-2025.fet
-   Style sheet generated with FET 7.2.5 on 09/07/25 00.16 */
+   Style sheet generated with FET 7.2.5 on 09/07/25 14.37 */
 
 /* Untuk melakukan sebuah halaman hanya istirahat setelah setiap jadwal kedua, menghapus "Halaman-break-sebelum: selalu;" dalam "table.even_table". */
 /* Delete "page-break-before: always;" in "table.even_table" and in "table.odd_table" to skip page-breaks. */
@@ -433,15 +433,15 @@ span.t_5 { /* teacher 05 Gr. Abdul Aziz Syargawi */
 
 }
 
-span.t_6 { /* teacher 06 Gr. Abdul Rahmansyah */
+span.t_6 { /* teacher 06 Gr. Mu'as */
 
 }
 
-span.t_7 { /* teacher 07 Gr. Dede Miftah R. */
+span.t_7 { /* teacher 07 Gr. Abdul Rahmansyah */
 
 }
 
-span.t_8 { /* teacher 08 Gr. Mu'as */
+span.t_8 { /* teacher 08 Gr. Dede Miftah R. */
 
 }
 
@@ -1089,15 +1089,15 @@ td.t_5 { /* teacher 05 Gr. Abdul Aziz Syargawi */
 
 }
 
-td.t_6 { /* teacher 06 Gr. Abdul Rahmansyah */
+td.t_6 { /* teacher 06 Gr. Mu'as */
 
 }
 
-td.t_7 { /* teacher 07 Gr. Dede Miftah R. */
+td.t_7 { /* teacher 07 Gr. Abdul Rahmansyah */
 
 }
 
-td.t_8 { /* teacher 08 Gr. Mu'as */
+td.t_8 { /* teacher 08 Gr. Dede Miftah R. */
 
 }
 

@@ -1,5 +1,5 @@
 ﻿Konflik lunak dari kdt-2025.fet
-Dihasilkan dari FET 7.2.5 pada 09/07/25 00.16
+Dihasilkan dari FET 7.2.5 pada 09/07/25 14.37
 
 Number of broken soft constraints: 0
 Total soft conflicts: 0
